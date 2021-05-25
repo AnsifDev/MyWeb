@@ -1,18 +1,18 @@
 {
-    "name" : "MyWeb"
-    "short_name" : "MyWeb"
-    "start_url" : "/begin.html"
-    "background_color": "black"
-    "theme_color": "#000000"
-    "display" : "standalone"
+    "name" : "MyWeb",
+    "short_name" : "MyWeb",
+    "start_url" : "/begin.html",
+    "background_color" : "black",
+    "theme_color" : "#000000",
+    "display" : "standalone",
     "icons" : [{
-        "src" : "/img1.png"
-        "sizes": "512x512"
-        "type": "image/png"
+        "src" : "/img1.png",
+        "sizes" : "512x512",
+        "type" : "image/png"
     },
     {
-        "src" : "/img1.png"
-        "sizes": "64x64"
-        "type": "image/png"
+        "src" : "/img1.png",
+        "sizes" : "64x64",
+        "type" : "image/png"
     }]
 }
