@@ -9,5 +9,10 @@
         "src" : "/img1.png"
         "sizes": "512x512"
         "type": "image/png"
+    },
+    {
+        "src" : "/img1.png"
+        "sizes": "64x64"
+        "type": "image/png"
     }]
 }
