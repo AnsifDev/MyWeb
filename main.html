@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#000000">
+        <link rel= "manifest" href="/manifest.json">
+        <title>MyWeb</title>
+    </head>
+    <body>
+        <script language="JavaScript">
+        alert("began to work");
+        alert("began to working");
+            if ("serviceWorker" in navigator) {
+                navigator.serviceWorker.register("/sw.js").then(r=>{
+                    alert("Registeration successful:\n"+r);
+                }).catch(e=>{
+                    alert("Registeration unsuccessful:\n"+e);
+                });
+                alert("true");
+            } else {
+                alert("Service Worker seems to be unsupported");
+            }
+        </script>
+    </body>
+</html>
