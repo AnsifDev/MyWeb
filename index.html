@@ -10,7 +10,7 @@
         alert("began to work");
         alert("began to working");
             if ("serviceWorker" in navigator) {
-                navigator.serviceWorker.register("/sw.js").then(r=>{
+                navigator.serviceWorker.register("serviceworker0.js").then(r=>{
                     alert("Registeration successful:\n"+r);
                 }).catch(e=>{
                     alert("Registeration unsuccessful:\n"+e);
