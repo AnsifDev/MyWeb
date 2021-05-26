@@ -5,7 +5,8 @@ self.addEventListener("install", e=>{
     }))
 })
 self.addEventListener("fetch", e=>{
-    caches.match(e.request).then(req=>{
-        return req || fetch(e.request);
-    })
+    e.respondWith(caches.match(e.request).then(req=>{
+        if (req) { return req; }
+        else { return fetch(e.request); }
+    }))
 })
