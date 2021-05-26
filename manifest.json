@@ -4,6 +4,7 @@
     "start_url" : "./begin.html",
     "background_color" : "black",
     "theme_color" : "#000000",
+    "prefer_related_application : false,
     "display" : "standalone",
     "icons" : [{
         "src" : "/img512.png",
