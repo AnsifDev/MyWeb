@@ -3,7 +3,7 @@
     "short_name" : "MyWeb",
     "start_url" : "./begin.html",
     "background_color" : "black",
-    "theme_color" : "#000000",
+    "theme_color" : "#eeeeee",
     "display" : "standalone",
     "icons" : [{
         "src" : "img512.png",
