@@ -6,12 +6,12 @@
     "theme_color" : "#000000",
     "display" : "standalone",
     "icons" : [{
-        "src" : "/img1.png",
+        "src" : "/img512.png",
         "sizes" : "512x512",
         "type" : "image/png"
     },
     {
-        "src" : "/img1.png",
+        "src" : "/img64.png",
         "sizes" : "64x64",
         "type" : "image/png"
     }]
