@@ -1,4 +1,4 @@
-//Not Hello
+//Not Hello2
 self.addEventListener("install", e=>{
     alert("ServiceWorker first load suceeded");
     e.waitUntil(caches.open("static").then(cache=>{
